@@ -19,11 +19,7 @@ import org.apache.kafka.common.serialization.LongSerializer;
 import org.apache.kafka.common.serialization.StringSerializer;
 
 public class ProduceATransaction {
-	public static final String TOPIC = "transaction-topic";
-	public static final String TOPIC2 = "block-validator-topic";	
-	public static final String TOPIC3 = "block-verifier-topic";	
-	public static final String TOPIC4 = "source-validator-topic";
-	public static final String TOPIC5 = "prehash-topic";
+    public static final String TOPIC = "transaction-topic";
     private final static String BOOTSTRAP_SERVERS = "localhost:9092";
     private static Producer<String, String> createProducer() {
         Properties props = new Properties();
