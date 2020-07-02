@@ -1,5 +1,9 @@
 package StreamForBC;
 
+/** this class is a sample-consumer
+*   @Author beier
+*/  
+
 import kafka.utils.ShutdownableThread;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
