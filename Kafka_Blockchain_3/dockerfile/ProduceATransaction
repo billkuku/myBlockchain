@@ -1,0 +1,11 @@
+FROM openjdk
+ARG JAR_FILE=blockchain-software.jar
+ARG JAR_LIB_FILE=lib/
+
+RUN mkdir app
+WORKDIR /app
+COPY blockchain-software.jar .
+ADD ${JAR_LIB_FILE} lib/
+
+EXPOSE 8080
+CMD ["java","-cp","blockchain-software.jar","StreamForBC.ProduceATransaction"]
