@@ -1,6 +1,6 @@
 package StreamForBC;
 
-/** this method is used for verifying block from distributed-block-topic by verifier-nodes.
+/** this class is used for verifying block from distributed-block-topic by verifier-nodes.
  * this is a stream-api. related methode see "VerifyBlock" class.
  * @author beier
  */
