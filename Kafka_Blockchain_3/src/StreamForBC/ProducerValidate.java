@@ -11,6 +11,10 @@ import org.apache.kafka.clients.producer.RecordMetadata;
 import org.apache.kafka.common.serialization.IntegerSerializer;
 import org.apache.kafka.common.serialization.StringSerializer;
 
+/** this class is only used  for test a multithread-producer.
+*   @ beier
+*/
+
 public class ProducerValidate extends Thread{
     
 	public static final String TOPIC1 = "source-topic";
