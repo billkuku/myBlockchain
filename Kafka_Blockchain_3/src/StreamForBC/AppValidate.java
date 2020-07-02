@@ -1,6 +1,6 @@
 package StreamForBC;
 
-/** this methode is used for validating transaction from transaction-topic by validate-node.
+/** this class is used for validating transaction from transaction-topic by validate-node.
  * this is a stream-api. related methode see "ValidateTransaction" class.
  * 
  * @author beier
