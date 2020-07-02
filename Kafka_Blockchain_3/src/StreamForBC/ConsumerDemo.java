@@ -1,5 +1,9 @@
 package StreamForBC;
 
+/** this class is a main() for sample-consumer
+*   @Author
+*/
+
 import org.apache.kafka.common.errors.TimeoutException;
 
 import java.util.concurrent.CountDownLatch;
