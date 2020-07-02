@@ -23,10 +23,9 @@ public class VerifyBlock {
 		//initiat a new calculated prehash in verify-process
 		String lhash = null;
 
-		/** prepare the data and calculate hash
+		/** prepare the data and calculate hash, hash data use SHA256
 		*/
         	String dataToHash = lprevioushash + btimeStamp + bsourceData;
-        	//hash data use SHA256
 		byte[] byteSource= dataToHash.getBytes();
     		MessageDigest digest = MessageDigest.getInstance("SHA-256");
 		byte[] encodedhash = digest.digest(byteSource);
