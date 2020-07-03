@@ -12,6 +12,7 @@ import org.apache.kafka.common.serialization.IntegerSerializer;
 import org.apache.kafka.common.serialization.StringSerializer;
 
 /** this class is only used  for test a multithread-producer.
+*   function not impemented yet.
 *   @ beier
 */
 
