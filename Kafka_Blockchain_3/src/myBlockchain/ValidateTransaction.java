@@ -42,6 +42,7 @@ public class ValidateTransaction {
 				WriteToFile.insert("visualledger", hash);
 				String block = hash + dataToHash;
 				//block sequence is: hash0-64, previousHash65-128,Timestamp129-141,source142-
+			        //Acceptable data types from kafka is: bool,string,int,bytes,double, need a customer serder
 				System.out.println(block);
 				return block;
     }
